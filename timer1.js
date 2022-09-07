@@ -6,8 +6,6 @@ const timeInSecondsArr = userInput.map(x => {
   return (x < 0 ? "" : x * 1000);
 });
 
-console.log(timeInSecondsArr);
-
 //loop through timeInSecondsArr to setTimeout of sound
 for (let x = 0; x < timeInSecondsArr.length; x ++) {
     
